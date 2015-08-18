@@ -1,8 +1,8 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Lowlevel Cache Cleaner',
-	'description' => 'coreapi',
+	'title' => 'BERGWERK Cache Cleaner',
+	'description' => 'Clear Caches',
 	'category' => 'plugin',
 	'author' => 'BERGWERK[GD]',
 	'author_email' => 'gd@bergwerk.ag',
@@ -17,7 +17,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
-	'version' => '1.0',
+	'version' => '2.0',
 	'constraints' => array(
 		'depends' => array(
 		),
