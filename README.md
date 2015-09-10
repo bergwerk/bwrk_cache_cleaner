@@ -40,8 +40,17 @@ $cacheCleaner->clearAllExceptPageCache();     // Clears all except the page cach
 
 Call the cli dispatcher via ssh with the following command:
 
+```
 ./typo3/cli_dispatch.phpsh extbase cache:run
+```
 
 
 Also you can add one of the following parameters: page, system, configuration, opc, except_page
+
 If you doesn't add any Parameter, it will clear all caches hard.
+
+Example for clear the page Cache via cli:
+
+```
+./typo3/cli_dispatch.phpsh extbase cache:run page
+```

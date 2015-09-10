@@ -28,23 +28,23 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Cache Cleaner API',
-	'description' => 'You can use this extension to clear your typo3-caches programmatically',
-	'category' => 'plugin',
-	'author' => 'BERGWERK [GD]',
-	'author_email' => 'gd@bergwerk.ag',
-	'author_company' => 'BERGWERK Werbeagentur GmbH',
-	'state' => 'stable',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'clearCacheOnLoad' => 0,
-	'version' => '1.3.0',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '6.2.0-6.2.99',
-		),
-		'conflicts' => array(),
-		'suggests' => array(),
-	),
+    'title' => 'Cache Cleaner API',
+    'description' => 'You can use this extension to clear your typo3-caches programmatically',
+    'category' => 'plugin',
+    'author' => 'BERGWERK [GD]',
+    'author_email' => 'gd@bergwerk.ag',
+    'author_company' => 'BERGWERK Werbeagentur GmbH',
+    'state' => 'stable',
+    'internal' => '',
+    'uploadfolder' => '0',
+    'createDirs' => '',
+    'clearCacheOnLoad' => 0,
+    'version' => '1.4.0',
+    'constraints' => array(
+        'depends' => array(
+            'typo3' => '6.2.0-6.2.99',
+        ),
+        'conflicts' => array(),
+        'suggests' => array(),
+    ),
 );

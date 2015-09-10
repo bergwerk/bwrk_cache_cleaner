@@ -58,16 +58,28 @@ class CacheCommandController extends CommandController
     {
         if ($type == 'page') {
             $this->cacheApiService->clearPageCache();
+
+            echo "Page cache cleared successfully!\n";
         } else if ($type == 'system') {
             $this->cacheApiService->clearSystemCache();
+
+            echo "System cache cleared successfully!\n";
         } else if ($type == 'configuration') {
             $this->cacheApiService->clearConfigurationCache();
+
+            echo "Configuration cache cleared successfully!\n";
         } else if ($type == 'opc') {
             $this->cacheApiService->clearAllActiveOpcodeCache();
+
+            echo "OPC cache cleared successfully!\n";
         } else if ($type == 'except_page') {
             $this->cacheApiService->clearAllExceptPageCache();
+
+            echo "All caches except page cache cleared successfully!\n";
         } else {
             $this->clearCache();
+
+            echo "All caches cleared successfully!\n";
         }
     }
 
