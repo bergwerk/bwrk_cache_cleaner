@@ -29,7 +29,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'Cache Cleaner API',
-    'description' => 'You can use this extension to clear your typo3-caches programmatically',
+    'description' => 'You can use this extension to clear your typo3-caches programmatically.',
     'category' => 'plugin',
     'author' => 'BERGWERK [GD]',
     'author_email' => 'gd@bergwerk.ag',
@@ -39,7 +39,7 @@ $EM_CONF[$_EXTKEY] = array(
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.4.1',
+    'version' => '1.4.2',
     'constraints' => array(
         'depends' => array(
             'typo3' => '6.2.0-6.2.99',

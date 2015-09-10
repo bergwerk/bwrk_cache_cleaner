@@ -1,5 +1,6 @@
 # Cache Cleaner
 
+You can use this extension to clear your typo3-caches programmatically.
 
 ## Installation
 
@@ -11,8 +12,10 @@
 You have to create a backend-user named "_cli_lowlevel".
 The password doesn't matter, but you have to give the user the following TSconfig:
 
+```php
 options.clearCache.all=1
 options.clearCache.pages=1
+```
 
 
 ## How to use the Cache Cleaner API
