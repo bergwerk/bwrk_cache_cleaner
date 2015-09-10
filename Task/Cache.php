@@ -26,7 +26,7 @@ namespace BERGWERK\BwrkCacheCleaner\Task;
  *
  * @author    Georg Dümmler <gd@bergwerk.ag>
  * @package    TYPO3
- * @subpackage    bwrk_onepage
+ * @subpackage    bwrk_cache_cleaner
  ***************************************************************/
 
 use TYPO3\CMS\Scheduler\Task\AbstractTask;

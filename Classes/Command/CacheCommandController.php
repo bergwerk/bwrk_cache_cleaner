@@ -26,7 +26,7 @@ namespace BERGWERK\BwrkCacheCleaner\Command;
  *
  * @author    Georg Dümmler <gd@bergwerk.ag>
  * @package    TYPO3
- * @subpackage    bwrk_onepage
+ * @subpackage    bwrk_cache_cleaner
  ***************************************************************/
 
 use BERGWERK\BwrkCacheCleaner\Service\CacheApiService;
