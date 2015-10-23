@@ -55,6 +55,17 @@ class CacheApiService {
             $cacheManager->flushCaches();
         }
     }
+
+    /**
+     * Clear the cache per page
+     *
+     * @param int $uid
+     */
+    public function clearCacheFromPage($uid)
+    {
+       $this->dataHandler->clear_cacheCmd($uid);
+    }
+
     /**
      * Clear the page cache.
      *

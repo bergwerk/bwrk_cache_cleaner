@@ -1,0 +1,11 @@
+config.tx_extbase {
+    persistence {
+        classes {
+            BERGWERK\BwrkCacheCleaner\Domain\Model\LogEntry {
+                mapping {
+                    tableName = sys_log
+                }
+            }
+        }
+    }
+}
