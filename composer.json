@@ -1,10 +1,10 @@
 {
   "name": "bergwerk/bwrk-cache-cleaner",
   "type": "typo3-cms-extension",
-  "description": "One page extension for TYPO3",
+  "description": "CLI Cache Cleaner for TYPO3",
   "homepage": "https://www.bergwerk.ag/",
   "license": ["GPL-2.0+"],
-  "keywords": ["TYPO3 CMS", "onepage"],
+  "keywords": ["TYPO3 CMS", "cache"],
   "version": "1.5.3",
   "minimum-stability":"stable"
 }
