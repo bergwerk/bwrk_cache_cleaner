@@ -1,10 +1,38 @@
 {
   "name": "bergwerk/bwrk-cache-cleaner",
-  "type": "typo3-cms-extension",
-  "description": "CLI Cache Cleaner for TYPO3",
-  "homepage": "https://www.bergwerk.ag/",
-  "license": ["GPL-2.0+"],
+  "description": "You can use this extension to clear your typo3-caches programmatically.",
   "keywords": ["TYPO3 CMS", "cache"],
-  "version": "1.5.3",
-  "minimum-stability":"stable"
+  "version": "1.5.4",
+  "minimum-stability":"stable",
+  "type": "typo3-cms-extension",
+  "homepage": "https://www.bergwerk.ag",
+  "authors": [
+      {
+          "name": "BERGWERK",
+          "role": "Developer",
+          "homepage": "https://www.bergwerk.ag"
+      }
+  ],
+  "license": ["GPL-2.0-or-later"],
+  "require": {
+    "typo3/cms-core": ">7.6"
+  },
+  "replace": {
+    "bwrk_cache_cleaner": "self.version",
+    "typo3-ter/bwrk_cache_cleaner": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "BERGWERK\\BwrkCacheCleaner\\": "Classes"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0"
+    },
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
 }
